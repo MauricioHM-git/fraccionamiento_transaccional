@@ -46,9 +46,14 @@ hipótesis bajo la cuales construirá su modelo analítico.
  
 Paso 3: Definir el modelo analítico. 
  
-1. Trazar el flujo de datos y explicar bajo cuál criterio seleccionó el modelo final. 
-2. Proponga con qué frecuencia deben actualizarse los datos y por qué. 
-3. Diseñar una arquitectura ideal y los recursos necesarios para desplegar su propuesta (Opcional). 
+1. Trazar el flujo de datos y explicar bajo cuál criterio seleccionó el modelo final.
+   R. Luego de validar varios modelos de aprendizaje automatico se obto por aquel modelo con
+   la mejor metrica de dempeño (F1) scort
+3. Proponga con qué frecuencia deben actualizarse los datos y por qué.
+   R. Debido a que la ventana para validar las transacciones fraccionadas es de 24 horas o un
+   dia, lo mejor seria actualizar los modelos cada 6 horas idealmente, o macimo cada 24 horas
+   para generar menor preprocesamiento.
+5. Diseñar una arquitectura ideal y los recursos necesarios para desplegar su propuesta (Opcional). 
  
 Criterios: 
  
